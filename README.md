@@ -27,7 +27,7 @@ To get started with this project locally, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/mahmoudsaleh18/Donuts-store.git
+    git clone 
     ```
 2. Navigate to the project directory:
     ```sh
@@ -40,7 +40,7 @@ To get started with this project locally, follow these steps:
 
 ## Usage
 
-To use the Donuts Store application, simply visit the following URL in your web browser: [https://mahmoudsaleh18.github.io/Donuts-store/](https://mahmoudsaleh18.github.io/Donuts-store/).
+To use the Donuts Store application, simply visit the following URL in your web browser: [https://donutstore.netlify.app/](https://donutstore.netlify.app/).
 
 Once there, you can:
 
