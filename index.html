@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donuts</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="img/Logo.png" alt="" class="logo" />
+      <nav class="navigation">
+        <a href="#home" class="active">Home</a>
+        <a href="#product">Products</a>
+        <a href="#store">Store</a>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <img src="img/Donuts.png" alt="" class="main-img" />
+      <div class="main-content">
+        <h1>Welcome</h1>
+        <h1>Welcome</h1>
+        <h1>Welcome</h1>
+      </div>
+      <div class="overlay">
+        <ul>
+          <li>
+            <i class="fa-brands fa-facebook fa-2xl" style="color: #000000"></i>
+          </li>
+          <li>
+            <i class="fa-brands fa-pinterest fa-2xl" style="color: #000000"></i>
+          </li>
+          <li>
+            <i class="fa-brands fa-instagram fa-2xl" style="color: #000000"></i>
+          </li>
+        </ul>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="left-content">
+              <h3>BIY</h3>
+              <h2>
+                BAKE<br />
+                IT<br />
+                YOURSELF
+              </h2>
+              <span class="arrow d-block">&#10230;</span>
+              <button class="button-27">Get Started</button>
+            </div>
+          </div>
+          <div class="offset-4 col-md-4">
+            <div class="right-content">
+              <h3>BUY</h3>
+              <h2>
+                READY<br />
+                IT<br />
+                YOURSELF
+              </h2>
+              <span class="arrow d-block">&#10229;</span>
+              <button class="button-27 button-28">Buy Donuts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products  -->
+    <section class="product-section" id="product">
+      <div class="main-title">
+        <h1>Our <span id="title-color">Products</span></h1>
+      </div>
+      <div class="product-container">
+        <div class="product-image">
+          <img src="img/leaf 1.svg" alt="" />
+          <img src="img/leaf 2.svg" alt="" />
+          <img src="img/leaf 3.svg" alt="" />
+          <img src="img/leaf 4.svg" alt="" />
+          <img
+            id="product-img"
+            src="img/Rectangle 1.svg"
+            alt="Jordan Proto-Lyte"
+          />
+        </div>
+        <h1 id="main-text">BLUE BERRY</h1>
+        <div class="product-details">
+          <h2>Sweet Donuts</h2>
+          <p>PICK YOUR FAVOURITE</p>
+          <p>A massive selection of delectable donuts</p>
+
+          <div class="color-options">
+            <div
+              class="color-circle"
+              style="background-color: #744eb2"
+              onclick="changeImage('img/Rectangle 1.svg', 'radial-gradient(#e0b8ff, #744eb2)', 'BLUE BERRY','5%','8rem','#744eb2')"
+            ></div>
+            <div
+              class="color-circle"
+              style="background-color: #e0762a"
+              onclick="changeImage('img/Rectangle 3.svg', 'radial-gradient(#FFDD9C, #E0762A)', 'CARAMEL', '6%','10rem','#e0762a')"
+            ></div>
+            <div
+              class="color-circle"
+              style="background-color: #e02a6b"
+              onclick="changeImage('img/Rectangle 4.svg', 'radial-gradient(#FF9CB9, #E02A6B)', 'STRAWBERRY', '2%','8rem', '#e02a6b')"
+            ></div>
+            <div
+              class="color-circle"
+              style="background-color: #7ab24e"
+              onclick="changeImage('img/Rectangle 2.svg', 'radial-gradient(#E0FFB8, #7AB24E)', 'GREEN APPLE', '2%','8rem', '#7ab24e')"
+            ></div>
+          </div>
+          <p class="price">$1.55</p>
+          <button class="button-27">BUY NOW</button>
+        </div>
+      </div>
+    </section>
+    <!-- Store -->
+    <section id="store" class="store-section">
+      <div class="container">
+        <div class="main-title">
+          <h1>Our <span style="color: #ff6a67">Store</span></h1>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div style="width: 100%">
+              <iframe
+                width="100%"
+                height="400"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                ><a href="https://www.gps.ie/">gps vehicle tracker</a></iframe
+              >
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="content">
+              <div class="content-details">
+                <h2>contact us</h2>
+                <p>Call us:</p>
+                <p class="details">(756) 123456789</p>
+                <p>Email Us:</p>
+                <p class="details">donuts@gmail.com</p>
+                <p>Our Store:</p>
+                <p class="details">Shop 2/869 c/tnte. maldonado</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- email news -->
+    <section class="email-section" id="store">
+      <div class="email-header">
+        <h1>Get The Latest From Donuts</h1>
+        <h2>Dive into the sweet universe</h2>
+      </div>
+      <div class="email-content">
+        <input type="text" placeholder="Email Address" />
+      </div>
+    </section>
+    <!-- footer -->
+    <section class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Donuts</h1>
+            <p>
+              This growth plan will help you reach your resolutions and achieve
+              the goals you have been striving towards.
+            </p>
+            <ul>
+              <li>
+                <i
+                  class="fa-brands fa-facebook fa-2xl"
+                  style="color: #000000"
+                ></i>
+              </li>
+              <li>
+                <i
+                  class="fa-brands fa-pinterest fa-2xl"
+                  style="color: #000000"
+                ></i>
+              </li>
+              <li>
+                <i
+                  class="fa-brands fa-instagram fa-2xl"
+                  style="color: #000000"
+                ></i>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <div class="img-container">
+              <img src="img/RedFruit.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <p class="footer-end">
+          Made By <span style="color: #ff6a67">Mohab Mohammed</span>
+        </p>
+      </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
